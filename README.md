@@ -14,6 +14,8 @@
 
 <img src="media/SUSig-red.png" width=200>
 
+**Conference on Robot Learning (CoRL) 2025**
+
 [[Website]](https://behavior-robot-suite.github.io/)
 [[arXiv]](https://arxiv.org/abs/2503.05652)
 [[PDF]](https://behavior-robot-suite.github.io/assets/pdf/brs_paper.pdf)
@@ -65,11 +67,13 @@ python3 main/rollout/<TASK_NAME>/rollout_async.py --ckpt_path <CKPT_PATH> --acti
 Our paper is posted on [arXiv](https://arxiv.org/abs/2503.05652). If you find our work useful, please consider citing us! 
 
 ```bibtex
-@article{jiang2025brs,
-title = {BEHAVIOR Robot Suite: Streamlining Real-World Whole-Body Manipulation for Everyday Household Activities},
-author = {Yunfan Jiang and Ruohan Zhang and Josiah Wong and Chen Wang and Yanjie Ze and Hang Yin and Cem Gokmen and Shuran Song and Jiajun Wu and Li Fei-Fei},
-year = {2025},
-journal = {arXiv preprint arXiv: 2503.05652}
+@inproceedings{
+jiang2025brs,
+title={{BEHAVIOR} Robot Suite: Streamlining Real-World Whole-Body Manipulation for Everyday Household Activities},
+author={Yunfan Jiang and Ruohan Zhang and Josiah Wong and Chen Wang and Yanjie Ze and Hang Yin and Cem Gokmen and Shuran Song and Jiajun Wu and Li Fei-Fei},
+booktitle={9th Annual Conference on Robot Learning},
+year={2025},
+url={https://openreview.net/forum?id=v2KevjWScT}
 }
 ```
 
